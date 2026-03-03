@@ -1,0 +1,150 @@
+{
+  "dashboardtop": {
+    "org": "Project X",
+    "owner": "Nammagiri",
+    "totalScans": 100,
+    "scheduled": 1000,
+    "rescans": 100,
+    "failedScans": 100,
+    "lasttime": "10 mins ago"
+  },
+  "dashboardsecondsection": [
+    {
+      "id": 1,
+      "label": "Critical Severity",
+      "level": "critical",
+      "count": 86,
+      "changePercent": 2,
+      "changeDirection": "increase",
+      "changeText": "+2% increase than yesterday"
+    },
+    {
+      "id": 2,
+      "label": "High Severity",
+      "level": "high",
+      "count": 16,
+      "changePercent": 0.9,
+      "changeDirection": "increase",
+      "changeText": "+0.9% increase than yesterday"
+    },
+    {
+      "id": 3,
+      "label": "Medium Severity",
+      "level": "medium",
+      "count": 26,
+      "changePercent": 0.9,
+      "changeDirection": "decrease",
+      "changeText": "+0.9% decrease than yesterday"
+    },
+    {
+      "id": 4,
+      "label": "Low Severity",
+      "level": "low",
+      "count": 16,
+      "changePercent": 0.9,
+      "changeDirection": "increase",
+      "changeText": "+0.9% increase than yesterday"
+    }
+  ],
+  "dashboardtabledata": [
+    {
+      "id": 1,
+      "scanName": "Web App Servers",
+      "type": "Greybox",
+      "status": "Completed",
+      "progress": 100,
+      "vulnerability": { "critical": 5, "high": 12, "medium": 23, "low": 18 },
+      "lastScan": "4d ago"
+    },
+    {
+      "id": 2,
+      "scanName": "Web App Servers",
+      "type": "Greybox",
+      "status": "Completed",
+      "progress": 100,
+      "vulnerability": { "critical": 5, "high": 12, "medium": 23, "low": 18 },
+      "lastScan": "4d ago"
+    },
+    {
+      "id": 3,
+      "scanName": "Web App Servers",
+      "type": "Greybox",
+      "status": "Completed",
+      "progress": 100,
+      "vulnerability": { "critical": 5, "high": 12, "medium": 23, "low": 18 },
+      "lastScan": "4d ago"
+    },
+    {
+      "id": 4,
+      "scanName": "Web App Servers",
+      "type": "Greybox",
+      "status": "Completed",
+      "progress": 100,
+      "vulnerability": { "critical": 5, "high": 12, "medium": 23, "low": 18 },
+      "lastScan": "4d ago"
+    },
+    {
+      "id": 5,
+      "scanName": "Web App Servers",
+      "type": "Greybox",
+      "status": "Completed",
+      "progress": 100,
+      "vulnerability": { "critical": 5, "high": 12, "medium": 23, "low": 18 },
+      "lastScan": "4d ago"
+    },
+    {
+      "id": 6,
+      "scanName": "Web App Servers",
+      "type": "Greybox",
+      "status": "Completed",
+      "progress": 100,
+      "vulnerability": { "critical": 5, "high": 12, "medium": 23, "low": 18 },
+      "lastScan": "4d ago"
+    },
+    {
+      "id": 7,
+      "scanName": "Web App Servers",
+      "type": "Greybox",
+      "status": "Completed",
+      "progress": 100,
+      "vulnerability": { "critical": 5, "high": 12, "medium": 23, "low": 18 },
+      "lastScan": "4d ago"
+    },
+    {
+      "id": 8,
+      "scanName": "Web App Servers",
+      "type": "Greybox",
+      "status": "Scheduled",
+      "progress": 100,
+      "vulnerability": { "critical": 5, "high": 12, "medium": 0, "low": 0 },
+      "lastScan": "4d ago"
+    },
+    {
+      "id": 9,
+      "scanName": "Web App Servers",
+      "type": "Greybox",
+      "status": "Scheduled",
+      "progress": 100,
+      "vulnerability": { "critical": 5, "high": 12, "medium": 0, "low": 0 },
+      "lastScan": "4d ago"
+    },
+    {
+      "id": 10,
+      "scanName": "IoT Devices",
+      "type": "Blackbox",
+      "status": "Failed",
+      "progress": 10,
+      "vulnerability": { "critical": 2, "high": 4, "medium": 8, "low": 1 },
+      "lastScan": "3d ago"
+    },
+    {
+      "id": 11,
+      "scanName": "Temp Data",
+      "type": "Blackbox",
+      "status": "Failed",
+      "progress": 10,
+      "vulnerability": { "critical": 2, "high": 4, "medium": 8, "low": 1 },
+      "lastScan": "3d ago"
+    }
+  ]
+}
