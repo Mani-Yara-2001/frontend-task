@@ -26,7 +26,7 @@ export default function ActionButton({
       "border-0 bg-teal-accent text-white hover:bg-teal-600",
   };
 
-  // Build custom style overrides when color props are passed
+ 
   const customStyle =
     bg || textColor || borderColor
       ? [
